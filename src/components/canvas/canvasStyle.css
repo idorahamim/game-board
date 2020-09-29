@@ -1,0 +1,16 @@
+.canvas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "menu" "game" "game";
+    grid-gap: 10px;
+    margin: 2px;
+}
+
+.game {
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.hidden {
+    display: none;
+}

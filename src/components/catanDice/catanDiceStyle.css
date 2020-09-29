@@ -1,0 +1,22 @@
+.catanDice {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-areas: "generate-button first-cube second-cube color-cube";
+    grid-gap: 1px;
+}
+
+.catan-cubes-button {
+    grid-area: generate-button;
+}
+
+.first-cube {
+    grid-area: first-cube;
+}
+
+second-cube {
+    grid-area: second-cube;
+}
+
+color-cube {
+    grid-area: color-cube;
+}

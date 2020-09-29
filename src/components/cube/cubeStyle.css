@@ -1,0 +1,8 @@
+.cube {
+    text-align: center;
+    border: solid 2px #000000;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}

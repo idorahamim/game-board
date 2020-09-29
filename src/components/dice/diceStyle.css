@@ -1,0 +1,17 @@
+.dice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "generate-button first-cube second-cube";
+}
+
+.dice-button {
+    grid-area: generate-button;
+}
+
+.first-cube {
+    grid-area: first-cube;
+}
+
+.second-cube {
+    grid-area: second-cube;
+}
